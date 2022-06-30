@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "583961916253",
+    "project_id": "deremate-josepareja",
+    "storage_bucket": "deremate-josepareja.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583961916253:android:d826baf139a07dea50eeb4",
+        "android_client_info": {
+          "package_name": "com.example.deremate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583961916253-8nk650qod54c1o6lhlst1ubtj9ac4qtn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx3mWJsLhlra_dZUwdl-Ohxy9IKjElrjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583961916253-8nk650qod54c1o6lhlst1ubtj9ac4qtn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
