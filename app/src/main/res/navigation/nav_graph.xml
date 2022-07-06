@@ -7,7 +7,11 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.deremate.ui.main.MainFragment"
+        android:name="com.example.deremate.ui.main.view.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.example.deremate.ui.login.view.LogInFragment"
+        android:label="LogInFragment" />
 </navigation>

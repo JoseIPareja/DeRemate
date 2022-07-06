@@ -1,4 +1,4 @@
-package com.example.deremate
+package com.example.deremate.ui.main.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,6 +6,7 @@ import androidx.appcompat.widget.Toolbar
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
+import com.example.deremate.R
 
 class MainActivity : AppCompatActivity() {
 

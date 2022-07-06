@@ -1,4 +1,4 @@
-package com.example.deremate.ui.main
+package com.example.deremate.ui.main.viewmodel
 
 import androidx.lifecycle.ViewModel
 

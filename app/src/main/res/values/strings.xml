@@ -1,5 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DeRemate</string>
-    <string name="shopping_cart_title">Carrito de Compras</string>
-    <string name="content_description_cart">Clickear para ver Carro de Compras</string>
+    <string name="shopping_cart_title">Shopping Cart</string>
+    <string name="content_description_cart">Click to see Shopping Cart</string>
+    <string name="login_title">Log In with your phone number, e-mail or user</string>
+    <string name="login_input">Phone number, e-mail or user</string>
+    <string name="login_btn">Continue</string>
+    <string name="login_btn_register">Create account</string>
+    <string name="copyright">Copyright 1997-2022 JoseIPareja</string>
 </resources>
