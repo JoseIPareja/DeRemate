@@ -7,5 +7,12 @@
     <string name="login_input">Teléfono, e-mail o usuario</string>
     <string name="login_btn">Continuar</string>
     <string name="login_btn_register">Crear cuenta</string>
-    <string name="copyright">Copyright 1997-2022 JoseIPareja</string>
+    <string name="copyright">Copyright 1997–2022 JoseIPareja</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_search">Buscar</string>
+    <string name="menu_purchases">Mis compras</string>
+    <string name="menu_offers">Ofertas</string>
+    <string name="menu_history">Historial</string>
+    <string name="menu_account">Mi cuenta</string>
+    <string name="menu_help">Ayuda</string>
 </resources>
