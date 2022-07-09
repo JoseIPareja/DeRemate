@@ -4,31 +4,31 @@
         android:id="@+id/group1"
         android:checkableBehavior="single">
         <item
-            android:id="@+id/item_home"
+            android:id="@+id/nav_main"
             android:icon="@drawable/ic_home_24"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/item_search"
+            android:id="@+id/nav_search"
             android:icon="@drawable/ic_search_24"
             android:title="@string/menu_search" />
         <item
-            android:id="@+id/item_purchases"
+            android:id="@+id/nav_purchases"
             android:icon="@drawable/ic_bag_24"
             android:title="@string/menu_purchases" />
         <item
-            android:id="@+id/item_offers"
+            android:id="@+id/nav_offers"
             android:icon="@drawable/ic_offer_24"
             android:title="@string/menu_offers" />
         <item
-            android:id="@+id/item_history"
+            android:id="@+id/nav_history"
             android:icon="@drawable/ic_history_24"
             android:title="@string/menu_history" />
         <item
-            android:id="@+id/item_account"
+            android:id="@+id/nav_account"
             android:icon="@drawable/ic_account_24"
             android:title="@string/menu_account" />
         <item
-            android:id="@+id/item_help"
+            android:id="@+id/nav_help"
             android:icon="@drawable/ic_help_24"
             android:title="@string/menu_help" />
     </group>

@@ -15,4 +15,7 @@
     <string name="menu_history">Historial</string>
     <string name="menu_account">Mi cuenta</string>
     <string name="menu_help">Ayuda</string>
+    <string name="menu_title">Ingresa a tu cuenta</string>
+    <string name="menu_description">Podrás ver detalles de envío y personalizar tu experiencia.</string>
+    <string name="menu_btn">Ingresar</string>
 </resources>

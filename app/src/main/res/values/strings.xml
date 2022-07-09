@@ -15,4 +15,7 @@
     <string name="menu_history">Search history</string>
     <string name="menu_account">My account</string>
     <string name="menu_help">Help</string>
+    <string name="menu_title">Log in to your account</string>
+    <string name="menu_description">See details of your shipment and personalize your experience.</string>
+    <string name="menu_btn">Log in</string>
 </resources>
