@@ -5,30 +5,46 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/nav_main"
+            android:checkable="true"
+            android:enabled="true"
             android:icon="@drawable/ic_home_24"
-            android:title="@string/menu_home" />
+            android:title="@string/menu_home"
+            android:visible="true" />
         <item
             android:id="@+id/nav_search"
+            android:checkable="true"
+            android:enabled="true"
             android:icon="@drawable/ic_search_24"
-            android:title="@string/menu_search" />
+            android:title="@string/menu_search"
+            android:visible="true" />
         <item
             android:id="@+id/nav_purchases"
+            android:checkable="true"
+            android:enabled="true"
             android:icon="@drawable/ic_bag_24"
             android:title="@string/menu_purchases" />
         <item
             android:id="@+id/nav_offers"
+            android:checkable="true"
+            android:enabled="true"
             android:icon="@drawable/ic_offer_24"
             android:title="@string/menu_offers" />
         <item
             android:id="@+id/nav_history"
+            android:checkable="true"
+            android:enabled="true"
             android:icon="@drawable/ic_history_24"
             android:title="@string/menu_history" />
         <item
             android:id="@+id/nav_account"
+            android:checkable="true"
+            android:enabled="true"
             android:icon="@drawable/ic_account_24"
             android:title="@string/menu_account" />
         <item
             android:id="@+id/nav_help"
+            android:checkable="true"
+            android:enabled="true"
             android:icon="@drawable/ic_help_24"
             android:title="@string/menu_help" />
     </group>
