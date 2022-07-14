@@ -2,18 +2,19 @@ package com.example.deremate.ui.main.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
+import android.view.MenuInflater
 import android.view.MenuItem
 import android.widget.Button
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.core.view.MenuProvider
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.*
 import com.example.deremate.R
 import com.example.deremate.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), MenuProvider {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var appBarConfiguration: AppBarConfiguration
@@ -21,14 +22,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        //Setting Splash Screen
         installSplashScreen()
-
-        //Setting Layout and Binding
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        //Setting Custom App Bar
         setSupportActionBar(binding.topAppBar)
 
         //Setting Jetpack Navigation Components
@@ -48,7 +44,7 @@ class MainActivity : AppCompatActivity() {
             ), binding.drawerMain
         )
 
-        //Setting NavigationView to NavController
+        //Setting NavigationView to menu Drawer
         setupActionBarWithNavController(navController, appBarConfiguration)
         binding.navigationView.setupWithNavController(navController)
 
@@ -62,13 +58,12 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+    override fun onCreateMenu(menu: Menu, menuInflater: MenuInflater) {
         menuInflater.inflate(R.menu.top_app_bar, menu)
-        return true
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+    override fun onMenuItemSelected(menuItem: MenuItem): Boolean {
         val navController = findNavController(R.id.nav_host_fragment)
-        return  item.onNavDestinationSelected(navController) || super.onOptionsItemSelected(item)
+        return menuItem.onNavDestinationSelected(navController)
     }
 }
