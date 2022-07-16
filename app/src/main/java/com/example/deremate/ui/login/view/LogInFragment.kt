@@ -32,7 +32,7 @@ class LogInFragment: Fragment() {
         val menuHost: MenuHost = requireActivity()
         menuHost.addMenuProvider(object : MenuProvider {
             override fun onCreateMenu(menu: Menu, menuInflater: MenuInflater) {
-                menuInflater.inflate(R.menu.login_top_app_bar, menu)
+                menu.clear()
             }
 
             override fun onMenuItemSelected(menuItem: MenuItem): Boolean {

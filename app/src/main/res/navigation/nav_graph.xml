@@ -8,7 +8,6 @@
     <fragment
         android:id="@+id/nav_main"
         android:name="com.example.deremate.ui.main.view.MainFragment"
-        android:label="MainFragment"
         tools:layout="@layout/fragment_main">
         <action
             android:id="@+id/action_nav_main_to_nav_login"
@@ -16,6 +15,5 @@
     </fragment>
     <fragment
         android:id="@+id/nav_login"
-        android:name="com.example.deremate.ui.login.view.LogInFragment"
-        android:label="LogInFragment" />
+        android:name="com.example.deremate.ui.login.view.LogInFragment"/>
 </navigation>

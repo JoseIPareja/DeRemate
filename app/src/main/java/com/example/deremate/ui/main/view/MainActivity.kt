@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity(), MenuProvider {
     }
 
     override fun onCreateMenu(menu: Menu, menuInflater: MenuInflater) {
-        menuInflater.inflate(R.menu.top_app_bar, menu)
+        menu.clear()
     }
 
     override fun onMenuItemSelected(menuItem: MenuItem): Boolean {

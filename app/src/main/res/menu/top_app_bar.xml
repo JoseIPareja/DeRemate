@@ -2,10 +2,4 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item
-        android:id="@+id/shoppingCart"
-        android:contentDescription="@string/content_description_cart"
-        android:icon="@drawable/ic_shopping_cart_24"
-        android:title="@string/shopping_cart_title"
-        app:showAsAction="ifRoom" />
 </menu>
