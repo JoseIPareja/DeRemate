@@ -18,4 +18,14 @@
     <string name="menu_title">Log in to your account</string>
     <string name="menu_description">See details of your shipment and personalize your experience.</string>
     <string name="menu_btn">Log in</string>
+    <string name="signup_title">Your data</string>
+    <string name="signup_description">Validate your data to log in or create an account.</string>
+    <string name="signup_email_title">Validate your e-mail</string>
+    <string name="signup_email_description">You will use it to recover your account.</string>
+    <string name="signup_name_title">Complete your name</string>
+    <string name="signup_name_description">Choose how you would like to be called.</string>
+    <string name="signup_phone_title">Validate your phone</string>
+    <string name="signup_phone_description">You will use it to log in.</string>
+    <string name="signup_password_title">Create your password</string>
+    <string name="signup_password_description">You will use it to log in.</string>
 </resources>

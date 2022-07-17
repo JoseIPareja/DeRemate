@@ -18,4 +18,14 @@
     <string name="menu_title">Ingresa a tu cuenta</string>
     <string name="menu_description">Podrás ver detalles de envío y personalizar tu experiencia.</string>
     <string name="menu_btn">Ingresar</string>
+    <string name="signup_title">Tus datos</string>
+    <string name="signup_description">Validá tus datos para que nadie pueda ingresar o crear una cuenta a tu nombre.</string>
+    <string name="signup_email_title">Validar e-mail</string>
+    <string name="signup_email_description">Lo usarás para recuperar tu cuenta.</string>
+    <string name="signup_name_title">Completar nombre</string>
+    <string name="signup_name_description">Elegí cómo querés que te llamemos.</string>
+    <string name="signup_phone_title">Validar teléfono</string>
+    <string name="signup_phone_description">Servirá para ingresar a tu cuenta.</string>
+    <string name="signup_password_title">Crear contraseña</string>
+    <string name="signup_password_description">Servirá para ingresar a tu cuenta.</string>
 </resources>
