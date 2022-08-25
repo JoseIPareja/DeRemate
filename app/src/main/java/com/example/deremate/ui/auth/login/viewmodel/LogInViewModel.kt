@@ -1,4 +1,4 @@
-package com.example.deremate.ui.login.viewmodel
+package com.example.deremate.ui.auth.login.viewmodel
 
 import androidx.lifecycle.ViewModel
 

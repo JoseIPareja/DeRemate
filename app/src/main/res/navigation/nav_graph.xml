@@ -10,10 +10,12 @@
         android:name="com.example.deremate.ui.main.view.MainFragment"
         tools:layout="@layout/fragment_main">
         <action
-            android:id="@+id/action_nav_main_to_nav_login"
-            app:destination="@id/nav_login" />
+            android:id="@+id/action_nav_main_to_authActivity"
+            app:destination="@id/authActivity" />
     </fragment>
-    <fragment
-        android:id="@+id/nav_login"
-        android:name="com.example.deremate.ui.login.view.LogInFragment"/>
+    <activity
+        android:id="@+id/authActivity"
+        android:name="com.example.deremate.ui.auth.AuthActivity"
+        android:label="activity_auth"
+        tools:layout="@layout/activity_auth" />
 </navigation>

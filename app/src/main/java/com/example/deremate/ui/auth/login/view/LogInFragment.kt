@@ -1,4 +1,4 @@
-package com.example.deremate.ui.login.view
+package com.example.deremate.ui.auth.login.view
 
 import android.os.Bundle
 import android.view.*
@@ -9,7 +9,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
 import com.example.deremate.R
 import com.example.deremate.databinding.FragmentLoginBinding
-import com.example.deremate.ui.login.viewmodel.LogInViewModel
+import com.example.deremate.ui.auth.login.viewmodel.LogInViewModel
 
 class LogInFragment: Fragment() {
 

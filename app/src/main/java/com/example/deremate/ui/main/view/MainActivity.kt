@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity(), MenuProvider {
 
         //Setting NavigationHeader's Button Clickable
         val btnMenuLogIn = binding.navigationView.getHeaderView(0).findViewById<Button>(R.id.btnMenuLogIn)
-        btnMenuLogIn.setOnClickListener { navController.navigate(R.id.action_nav_main_to_nav_login) }
+        btnMenuLogIn.setOnClickListener { navController.navigate(R.id.action_nav_main_to_authActivity) }
     }
 
     override fun onSupportNavigateUp(): Boolean {
