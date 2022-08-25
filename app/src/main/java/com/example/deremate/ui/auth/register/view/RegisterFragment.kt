@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import com.example.deremate.R
 import com.example.deremate.databinding.FragmentRegisterBinding
 import com.example.deremate.ui.auth.register.viewmodel.RegisterViewModel
 
@@ -19,6 +20,6 @@ class RegisterFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return super.onCreateView(inflater, container, savedInstanceState)
+        return inflater.inflate(R.layout.fragment_register, container, false)
     }
 }

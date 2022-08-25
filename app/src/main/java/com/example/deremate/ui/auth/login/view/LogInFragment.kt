@@ -7,6 +7,7 @@ import androidx.core.view.MenuProvider
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
+import androidx.navigation.fragment.findNavController
 import com.example.deremate.R
 import com.example.deremate.databinding.FragmentLoginBinding
 import com.example.deremate.ui.auth.login.viewmodel.LogInViewModel
@@ -39,5 +40,12 @@ class LogInFragment: Fragment() {
                 return false
             }
         }, viewLifecycleOwner, Lifecycle.State.RESUMED)
+
+        binding.btnLogInRegister.setOnClickListener { navigateToRegister() }
+    }
+
+    private fun navigateToRegister() {
+        val action = LogInFragmentDirections.actionLogInFragmentToRegisterFragment()
+        this.findNavController().navigate(action)
     }
 }
